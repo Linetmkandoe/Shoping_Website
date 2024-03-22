@@ -1,0 +1,126 @@
+.container{
+    background-image: url(https://i.pinimg.com/236x/66/23/18/6623183389e77f1bdcb106cec3c4fa35.jpg);
+    background-color:gray;
+    color: black;
+  }
+  
+  .image5{
+  
+  }.topnav{
+      display: flex;
+      gap: 100px;
+  }
+  .icons{
+      width: 30px;
+      height: 25px;
+      display: flex;
+      gap: 20px;
+  }
+  .nav{
+      gap: 40px;
+  }
+  .statement{
+      display: flex;
+      gap: 20px;
+  }
+  #image1{
+    padding-left: 500px;
+  }
+  .button{
+      background-color: palevioletred;
+      color: white;
+      width: 100px;
+      height: 30px;
+      margin-left: 150px;
+  }
+  .images{
+      display: flex;
+      
+      
+  }
+  #image6{
+      height: 300px;
+  
+  }
+  #image7{
+      height: 300px;
+  }
+  #image8{
+  height: 300px;
+  }
+  #image9{
+      height: 300px;
+  
+  }
+  #image10{
+      height: 300px;
+  }
+  #image11{
+      height: 300px;
+  
+  }
+  #image12{
+      height: 300px;
+  }
+  #image13{
+      height: 300px;
+      width: 300px;
+  }
+  .one{
+      display: flex;
+      gap: 50px;
+      padding-left: 40px;
+  }
+  #image13{
+      height: 400px;
+  }
+  #image20{
+    height: 400px;
+
+  }
+  #image21{
+    height: 400px;
+  }
+  #image22{
+    height: 400px;
+
+  }
+  #image23{
+    height: 400px;
+  }
+  #image24{
+    height: 400px;
+  }
+  #image25{
+    height: 400px;
+  }
+  #image26{
+    height: 400px;
+  }
+  #icons{
+    height: 50px;
+  }
+  #image29{
+    height: 300px;
+  }
+  #image30{
+    height: 300px;
+  }
+  #image31{
+    height: 300px;
+  }
+  #image16{
+height: 300px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: palevioletred;
+  }
+  .bottom{
+    background-color: plum;
+    padding-left: 700px;
+  }
+  #icons1{
+    
+  }
