@@ -3,11 +3,7 @@
     background-color:gray;
     color: black;
   }
-  
-
-
-    
-    .topnav{
+  .topnav{
       display: flex;
       gap: 100px;
   }
@@ -22,8 +18,8 @@
   }
  .statement{
       display: flex;
-      gap: 20px; .
-  }
+      gap: 20px; }
+    
   #image1{
     padding-left: 500px;
   }
