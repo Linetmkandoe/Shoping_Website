@@ -4,9 +4,10 @@
     color: black;
   }
   
-  .image5{
-  
-  }.topnav{
+
+
+    
+    .topnav{
       display: flex;
       gap: 100px;
   }
@@ -19,9 +20,9 @@
   .nav{
       gap: 40px;
   }
-  .statement{
+ .statement{
       display: flex;
-      gap: 20px;
+      gap: 20px; .
   }
   #image1{
     padding-left: 500px;
@@ -120,7 +121,49 @@ height: 300px;
   .bottom{
     background-color: plum;
     padding-left: 700px;
-  }
-  #icons1{
     
   }
+
+  @media screen and(min-width:400px) and (max-width:700px){ 
+    .topnav{
+      flex-wrap: wrap;
+      gap: 100px;
+    }
+  .icons{
+    width: 30px;
+    height: 25px;
+    flex-wrap: wrap;
+    gap: 20px;}
+  .statement{
+     flex-wrap: wrap;
+      gap: 20px;
+    
+  }
+  .images{
+    flex-wrap: wrap;
+    
+
+}
+.one{
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 40px;
+
+}
+.footer{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: palevioletred;
+
+} 
+.bottom{
+  background-color: plum;
+  padding-left: 700px;
+  flex-wrap: wrap;
+  
+  }
+.image5{
+  padding-left: 700px;
+  margin-left: 40%;
+}
+}

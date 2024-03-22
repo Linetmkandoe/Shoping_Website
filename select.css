@@ -1,3 +1,45 @@
 h1{
     text-shadow: 2px 2px purple;
 }
+
+#img{
+    height: 200px;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.img2{
+    display: flex;
+    justify-content: space-around; 
+}
+#img3{
+    height: 245px;
+    width: 180px;
+
+    
+}
+.rotate{
+    display: flex;
+    gap: 20%;
+    rotate: 1deg; 
+}
+@media screen and(min-width:400px) and (max-width:700px){
+    h1{
+        text-shadow: 2px 2px purple;}
+        
+    #img{
+        height: 50px;
+    flex-wrap: wrap;}
+
+
+        .rotate{
+            flex-wrap: wrap;
+            gap: 1px;
+            rotate: 1deg;    
+    
+}
+
+}
