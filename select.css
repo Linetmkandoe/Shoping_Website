@@ -21,6 +21,9 @@ h1{
 
     
 }
+#image49{
+    height: 300px;
+}
 .rotate{
     display: flex;
     gap: 20%;
@@ -41,5 +44,12 @@ h1{
             rotate: 1deg;    
     
 }
+.images{
+    flex-wrap: wrap;
+    
 
+}
+.one{
+    flex-wrap: wrap;
+}
 }
