@@ -1,6 +1,10 @@
 h1{
     text-shadow: 2px 2px purple;
+}.All{
+    background-image: url(https://i.pinimg.com/236x/32/0d/e4/320de4aef9d3ffde67463025fac0c46f.jpg);
+    
 }
+
 
 #img{
     height: 200px;
@@ -27,7 +31,8 @@ h1{
 .rotate{
     display: flex;
     gap: 20%;
-    rotate: 1deg; 
+    rotate: 5deg; 
+    padding-left: 80px;
 }
 @media screen and(min-width:400px) and (max-width:700px){
     h1{
@@ -37,19 +42,19 @@ h1{
         height: 50px;
     flex-wrap: wrap;}
 
-
-        .rotate{
-            flex-wrap: wrap;
-            gap: 1px;
-            rotate: 1deg;    
+    .img2{
+        flex-wrap: wrap;}
     
-}
-.images{
-    flex-wrap: wrap;
+        h1{
+            text-shadow: 2px 2px purple;
+        padding-right: 90px;}
     
 
-}
+
 .one{
     flex-wrap: wrap;
 }
-}
+.images{
+   flex-wrap: wrap;
+    
+}}

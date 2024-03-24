@@ -77,7 +77,8 @@
   }
   .one{
       display: flex;
-      gap: 20px;
+      gap: 50px;
+      justify-content: space-around;
       padding-left: 40px;
   }
   #image13{
@@ -96,6 +97,7 @@
   }
   .three{
     display: flex;
+    justify-content: space-around;
   }
   #image23{
     height: 400px;
@@ -157,16 +159,17 @@ height: 300px;
   
   }
 
+  .one2{
+    display: flex;
+    justify-content: space-around;
+  }
+
   @media screen and(min-width:400px) and (max-width:700px){ 
     .topnav{flex-wrap: wrap;
       gap: 100px;}
       
     
-  .icons{
-    width: 30px;
-    height: 25px;
-    flex-wrap: wrap;
-    gap: 20px;}
+  
   .statement{
      flex-wrap: wrap;
       gap: 20px;
@@ -181,56 +184,49 @@ height: 300px;
   }
   .images{
     flex-wrap: wrap;
-    height: 100px;
-    
-
 }
 .one{
   flex-wrap: wrap;
-  gap: 50px;
-  padding-left: 40px;
 
 }
-.container{
-  background-image: url(https://i.pinimg.com/236x/66/23/18/6623183389e77f1bdcb106cec3c4fa35.jpg);
-background-repeat: no-repeat;
+
+.one2{
+  flex-wrap: wrap;
 }
 .footer{
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: palevioletred;
+  
 
 } 
 .bottom{
-  padding-left: 500px;
-  /* padding-left: 700px; */
-  flex-wrap: wrap;
+
+flex-wrap: wrap;
+  
   
   }
 .image5{
   padding-left: 700px;
   
   height: 20px;
-  width: 50px;
-}
-.images{
-  flex-direction: column;
+  width: 50 
   }
-  #image1{
-    height: 10px;
-    width: 20px;
-    padding-left: 0px;
-}
+  
+
 
 .three{
-  flex-wrap: wrap;}
-
-
-
-
-
-
-
+  flex-wrap: wrap;
 }
+.five{
+  flex-wrap: wrap;
+  height: 100px;
+}}
+
+
+
+
+
+
+
+
 
   
