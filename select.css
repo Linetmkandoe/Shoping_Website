@@ -1,60 +1,70 @@
-h1{
+h1 {
+  text-shadow: 2px 2px purple;
+}
+.All {
+  background-color: pink;
+}
+
+#img {
+  height: 200px;
+  justify-content: space-around;
+  padding-right: 30px;
+}
+#small {
+  width: 200px;
+  height: 200px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+.img2 {
+  display: flex;
+  justify-content: space-around;
+}
+#img3 {
+  height: 245px;
+  width: 180px;
+}
+#image49 {
+  height: 300px;
+}
+.rotate {
+  display: flex;
+  gap: 20%;
+  rotate: 5deg;
+  padding-left: 80px;
+}
+
+@media screen and(min-width:400px) and (max-width: 900px) {
+  h1 {
     text-shadow: 2px 2px purple;
-}.All{
-    background-color: pink;
-    
-}
+  }
 
-
-#img{
-    height: 200px;
-    justify-content: space-around;
-    padding-right: 30px;
-}
-.images{
-    display: flex;
-    justify-content: space-around;
-}
-.img2{
-    display: flex;
-    justify-content: space-around; 
-}
-#img3{
-    height: 245px;
-    width: 180px;
-
-    
-}
-#image49{
-    height: 300px;
-}
-.rotate{
-    display: flex;
-    gap: 20%;
-    rotate: 5deg; 
-    padding-left: 80px;
-}
-@media screen and(min-width:400px) and (max-width:700px){
-    h1{
-        text-shadow: 2px 2px purple;}
-        
-    #img{
-        height: 50px;
-    flex-wrap: wrap;}
-
-    .img2{
-        flex-wrap: wrap;}
-    
-        h1{
-            text-shadow: 2px 2px purple;
-        padding-right: 90px;}
-    
-
-
-.one{
+  #img {
+    height: 50px;
     flex-wrap: wrap;
+  }
+
+  .img2 {
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    text-shadow: 2px 2px purple;
+    padding-right: 90px;
+  }
+
+  .small {
+    width: 30%;
+    height: 30%;
+  }
+
+  .one {
+    flex-wrap: wrap;
+  }
+  .images {
+    flex-wrap: wrap;
+  }
 }
-.images{
-   flex-wrap: wrap;
-    
-}}
